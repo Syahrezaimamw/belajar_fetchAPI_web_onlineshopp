@@ -1,0 +1,150 @@
+/* <style> */
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+/* </style> */
+
+body,p,h1,h2,h3,h4,h5,h6,span{
+    margin: 0px;
+    padding: 0px;
+}
+.sh{
+    box-shadow: 0px 3px 5px rgb(239, 238, 238);
+}
+.brd{
+    border-bottom: 2px solid rgb(237, 234, 234);
+}
+li{
+    cursor: pointer;
+}
+.sf{
+    font-size: 10px;
+}
+input{
+    outline: none;
+    border: none;
+    box-shadow: 0px 1px 2px rgb(197, 197, 197);
+}
+.ctr{
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.ctr::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    display: block;
+    border-radius: 1px;
+    height: 100%;
+    left: -0px;
+    background-color: rgb(0,146,136);
+    width: 4px;
+}
+.liiDom{
+    font-weight: 500;
+    color: black;
+}
+.lii div{
+    border: 1px solid rgb(0,146,136);
+}
+.liiDom div{
+   background-color: rgb(0,146,136);
+}
+.brds{
+    border-left:1px solid rgb(197, 196, 196) ;
+}
+.btrt{
+    border-top:1px solid rgb(197, 196, 196)  ;
+    border-bottom:1px solid rgb(197, 196, 196)  ;
+}
+.brM{
+    border: 1px solid  rgb(186, 187, 187);
+    color:  rgb(186, 187, 187);
+    font-weight: 400;
+    cursor: pointer;
+}
+.brM:nth-child(1){
+
+    border: 1px solid  rgb(0,146,136);
+    color:  rgb(0,146,136);
+    font-weight: 400;
+}
+select{
+    width: 250px ;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border: 1px solid  rgb(186, 187, 187);
+    color:  rgb(186, 187, 187);
+}
+.brM:hover{
+    border: 1px solid  rgb(0,146,136);
+    color:  rgb(0,146,136);
+    font-weight: 400;
+
+}
+.wm{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: rgb(153, 151, 151);
+}
+.product{
+    cursor: pointer;
+    position: relative;
+    font-family: "Hind", sans-serif;
+}
+
+.ya{
+    /* display: none; */
+    opacity: 0;
+    transition: 0.1s;
+}
+.yaDOM{
+    opacity: 1;
+}
+.yaDom{
+    display: flex;
+}
+.ta{
+    display: none;
+}
+.taDoom{
+    display: flex;
+}
+.bts:active,.butonactive:active{
+    transform: scale(0.97);
+}
+.loading{
+    background-color: rgba(0, 0,0,0.4);
+}
+/* .discount::after{
+    content: "D";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    height: 15px;
+    border-radius: 50%;
+    top: -2px ;
+    right: -20px;
+    z-index: -1;
+    width: 15px;
+    background-color: rgb(0,146,136);
+} */
+.view{
+    background-color: rgba(78,54,41,0.9)
+}
+.view:hover{
+    background-color: rgba(78,54,41,0.9)
+
+}
+.trc{
+    border: 1px solid rgb(216, 214, 214);
+}
+.qty{
+    cursor: pointer;
+}
+.grap{
+    cursor: grab;
+}
